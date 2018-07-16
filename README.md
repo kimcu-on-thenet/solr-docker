@@ -28,14 +28,14 @@ For example, we configure the **E:/** as a __shared drive__
     * __Notes:__
 
         + It must be located at the drive that we configured as **shared drive** from Docker. 
-        + Since we configured the **E:/** drive as **shared drive** from Docker in preceding; thus, the source code must be cloned at this drive; for instance, **_E:/solr-docker_** 
+        + Since we configured the **E:/** drive as **shared drive** from Docker in preceding; thus, the source code must be cloned at this drive; for instance, **_E:/github/solr-docker_** 
 
 2. Open **Window PowerShell** as **Administrator**, then execute the **".\solr.ps1"** script and wait to finish
 3. Eventually, verify the Solr from browser by the Url: https://localhost:8983
 
 ### Notes:
 
-It might be need to check the **SolrData** which is mapped from Docker's container has been initialized. Just simple access the cloned repo folder (i.e. **_E:/solr-docker/SolrData_**)
+It might be need to check the **SolrData** which is mapped from Docker's container has been initialized. Just simple access the cloned repo folder (i.e. **_E:/github/solr-docker/SolrData_**)
 
 ![SolrData folder](documents/SolrData-folder.png)
 
