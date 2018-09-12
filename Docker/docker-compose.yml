@@ -10,4 +10,4 @@ services:
       - SOLR_HOME=/solr662
       - INIT_SOLR_HOME=yes
     volumes:
-      - '../SolrData:/solr662'
+      - '../SolrData/Server/Solr:/solr662'

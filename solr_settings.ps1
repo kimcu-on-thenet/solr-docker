@@ -10,5 +10,5 @@ $KeystorePassword= "secret"
 
 # Solr Parameters
 $SolrUrl = "https://localhost:8983/solr"
-$SolrRoot = Join-Path $PSScriptRoot "SolrData"
+$SolrRoot = Join-Path -Path $PSScriptRoot -ChildPath "SolrData" | Join-Path -ChildPath "Server" | Join-Path -ChildPath "Solr"
 
